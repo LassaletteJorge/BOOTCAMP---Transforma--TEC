@@ -5,4 +5,4 @@ Dio
 
 ## Descrição
 
-Este repositóro tem uma pasta chamada /src onde fica o código fontes
+Este repositóro tem uma pasta chamada /src onde fica o código fonte
