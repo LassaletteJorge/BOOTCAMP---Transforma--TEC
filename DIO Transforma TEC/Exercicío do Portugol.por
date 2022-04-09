@@ -1,4 +1,7 @@
 programa{
+
+	real metade
+	
 	funcao inicio() {
 
 		inteiro numero1, resultado
@@ -8,7 +11,9 @@ programa{
 
 		resultado = numero1 * 2
 
-		escreva("O resultado é: ", resultado)
+		metade = numero1 / 2
+
+		escreva("O dobro é: ", resultado, "\n A metade é: ", metade)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +21,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 189; 
+ * @POSICAO-CURSOR = 59; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
