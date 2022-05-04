@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+
+</head>
+<body>
+    <input type="text" id="item" placeholder="Novo item">
+
+    <button id="inserir" onclick="inserirItem()">
+        Inserir
+    </button>
+    <ul id="minhalista">
+        <li>Café</li>
+        <li>Leite</li>
+        <li>Manteiga</li>
+        <li>Pão Árabe</li>
+    </ul>
+    <script>
+        function inserirItem(){
+            let item = document.gentElementById("item").value
+            let noboItem = document.createElement("li")
+            let novoTexto = documento.createTextNode(item);
+            novoItem.appendChild(novoTexto);
+            let lista = document.getElementById("minhalista")
+            lista.insertBefore(noboItem,lista.chilren[0])//firstchild/lastchild
+        }
+    </script>
+</body>
+</html>
