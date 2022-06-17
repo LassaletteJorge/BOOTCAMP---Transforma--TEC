@@ -1,19 +1,23 @@
-programa{
-
-	real metade
+programa
+{
 	
-	funcao inicio() {
+	funcao inicio()
+	{
+		inteiro contador,limite,resultado,tabuada
 
-		inteiro numero1, resultado
+		contador = 0
+		limite = 10
 
-		escreva("Informe um numero: \n")
-		leia(numero1)
+		escreva("Qual tabuada você quer que eu resolva?")
+		leia(tabuada)
 
-		resultado = numero1 * 2
+		faca{
 
-		metade = numero1 / 2
-
-		escreva("O dobro é: ", resultado, "\n A metade é: ", metade)
+			resultado = tabuada * contador
+			escreva(tabuada + " x " + contador + " = " + resultado + "\n" )
+			contador ++
+			
+		}enquanto (contador<=limite)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +25,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 59; 
+ * @POSICAO-CURSOR = 333; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
