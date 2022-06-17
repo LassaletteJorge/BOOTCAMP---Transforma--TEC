@@ -1,4 +1,4 @@
-# Repositório de projetos do Tranforma Tec
+# Repositório do Bootcamp Transforma TEC
 
 Test com GitHub
 Dio
