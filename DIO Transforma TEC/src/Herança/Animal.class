@@ -1,0 +1,82 @@
+herança de pacotes ;
+
+classe  Animal {
+
+    //atributo da classe pai
+     comida privada String  ;
+
+    //método construtor da classe pai
+     animal público ( comida de corda  ) {
+        isso . comida = comida ;
+    }
+
+    //método da classe pai
+    public  void  comer (){
+        Sistema . fora . println ( "Venha " + this.food ) ;
+    }
+
+}
+
+//Classe Cat herdando atributos e métodos da classe Animal
+class  Cat  estende  Animal {
+
+     nome da string  privada ;
+
+    public  Cat ( String  food , String  name ) {
+
+        //chamando o construtor da classe pai
+        super ( comida );
+        isso . nome = nome ;
+    }
+
+    public  void  setName ( nome da string  ) {
+        isso . nome = nome ;
+    }
+
+    public  String  getNome () {
+         nome de retorno ;
+    }
+
+}
+
+class  Cão  estende  Animal {
+
+     nome da string  privada ;
+     pedigree de String  privado ;
+
+    public  Dog ( String  food , String  name , String  pedigree ) {
+        super ( comida );
+        isso . nome = nome ;
+        isso . linhagem = linhagem ;
+    }
+
+    public  void  setName ( nome da string  ) {
+        isso . nome = nome ;
+    }
+
+    public  String  getNome () {
+         nome de retorno ;
+    }
+    public  void  setPedigree ( String  pedigree ) {
+        isso . linhagem = linhagem ;
+    }
+    public  String  getPedigree () {
+        retorno  de linhagem ;
+    }
+
+}
+
+ classe  pública Animais {
+    public  static  void  main ( String [] args ) {
+
+        Gato  gato = new  Gato ( "Sardinha" , "Mimo" );
+        Sistema . fora . println ( "O gato" + cat . getNome ());
+        gato . comer ();
+
+        Dog  dog = new  Dog ( "Racao e umas porcarias que ele acha" , "Pudim" , "Golden" );
+        Sistema . fora . println ( "O cachorro" + cachorro . getNome () + "da raca" + cachorro . getPedigree ());
+        cachorro . comer ();
+
+
+    }
+}

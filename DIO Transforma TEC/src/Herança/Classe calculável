@@ -1,0 +1,42 @@
+polimorfismo do pacote . sobrecarga ;
+
+classe  Soma {
+
+    void  soma ( int  a ){
+        Sistema . fora . println ( a + a );
+    }
+
+    void  soma ( Duplo  a ){
+        Sistema . fora . println ( a + a );
+    }
+
+    void  soma ( int  a , int  b ){
+        Sistema . fora . println ( a + b );
+    }
+
+    void  soma ( int  a , int  b , int  c ){
+        Sistema . fora . println ( a + b + c );
+    }
+
+}
+
+ Calculadora de classe  pública {
+
+    public  static  void  main ( String [] args ) {
+
+        int  a = 5 ;
+        intb  = 10 ; _
+        intc  = 15 ; _
+
+        Soma  soma = new  Soma ();
+
+        soma . soma ( a );
+        soma . soma ( 5,5 );
+        soma . soma ( a , b );
+        soma . soma ( a , b , c );
+
+
+
+    }
+
+}

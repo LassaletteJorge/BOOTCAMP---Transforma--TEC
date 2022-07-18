@@ -1,0 +1,30 @@
+polimorfismo do pacote . sobrecarga ;
+
+class  Polígono {
+
+     perímetro vazio  público ( int a , int b , int c ){   
+        Sistema . fora . println ( "Triângulo de perímetros: " + ( a   + b + c ));
+    }
+
+     perímetro vazio  público ( int a , int b , int c , int d ){    
+        Sistema . fora . println "Quadrilatero de perímetros: " + ( a   + b + c + d ));
+    }
+
+     perímetro vazio  público ( int a , int b , int c , int d , int e ){     
+        Sistema . fora . println "Pentagono de perímetros ( " + ( a   + b + c + d + e ));
+    }
+
+}
+
+ polígonos de classe  pública {
+
+    public  static  void  main ( String [] args ) {
+
+        Polígono  polígono = new  Polígono ();
+
+        polígono . perímetro ( 1 , 2 , 3 );
+        polígono . perímetro ( 1 , 2 , 3 , 4 );
+        polígono . perímetro ( 1 , 2 , 3 , 4 , 5 );
+
+    }
+}

@@ -1,0 +1,54 @@
+herança de pacotes ;
+
+interface  Soma {
+
+    public  void  sumNumbers ( Double  a , Double  b );
+
+}
+
+interface  Sub {
+
+     subNúmeros public void  ( Double a , Double b );  
+
+}
+
+interface  Calculável  estende  Sum , Sub {
+
+     calculo de vazio  publico ();
+
+}
+
+
+public  class  Calculadora  implementa  Calculável {
+
+    @ Substituir
+    public  void  sumNumbers ( Double  a , Double  b ) {
+        Sistema . fora . println ( a + b );
+    }
+
+    @ Substituir
+     subNúmeros public void  ( Double a , Double b ) {  
+        Sistema . fora . println ( a - b );
+
+    }
+
+    @ Substituir
+     calcule o vazio  público () {
+        Sistema . fora . println ( "Calculadora" );
+
+    }
+
+    public  static  void  main ( String [] args ) {
+
+        Calculadora  calculadora = new  Calculadora ();
+
+        calculadora . calcular ();
+        calculadora . somaNúmeros ( 2,2 , 2,2 );
+        calculadora . subNúmeros ( 2,2 , 2,2 );
+
+
+    }
+
+
+
+}

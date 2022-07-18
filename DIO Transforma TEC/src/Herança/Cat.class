@@ -1,0 +1,38 @@
+polimorfismo do pacote . substituir ;
+
+classe  Veículo {
+
+     movimento vazio  público (){
+        Sistema . fora . println ( "Movendo" );
+    }
+
+}
+
+classe  Carro  estende  Veículo {
+
+     movimento vazio  público (){
+        Sistema . fora . println ( "Carro andando em terra" );
+    }
+}
+
+classe  Avião  estende  Veículo {
+
+    @ Substituir
+     movimento vazio  público () {
+        Sistema . fora . println ( "Avião voando" );
+    }
+}
+
+ Veículos de classe  pública {
+
+    public  static  void  main ( String [] args ) {
+
+        Avião  avião = new  Avião ();
+
+        Carro  carro = carro novo  ();
+
+        avião . mover ();
+        carro . mover ();
+    }
+
+}
