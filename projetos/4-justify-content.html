@@ -42,9 +42,17 @@
         .space-around{
             justify-content: space-around;
         }
+
+        .column{
+            flex-direction: column;
+            min-height: 200px;
+        }
+
+        
     </style>
 </head>
 <body>
+    <h1>row</h1>
     <p>flex-start</p>
     <sction class="container flex-start">
         <div classe="item">1</div>
@@ -80,6 +88,58 @@
 
     <p>space around</p>
     <sction class="container space-around">
+        <div classe="item">1</div>
+        <div classe="item">item 2</div>
+        <div classe="item">outro item</div>
+        <div classe="item">4</div>
+        <div classe="item">5</div>
+        <div classe="item">item 6</div>
+    </sction>
+
+    <h1>column</h1>
+
+    <p>flex-start (column)</p>
+    <sction class="container flex-start column">
+        <div classe="item">1</div>
+        <div classe="item">item 2</div>
+        <div classe="item">outro item</div>
+        <div classe="item">4</div>
+        <div classe="item">5</div>
+        <div classe="item">item 6</div>
+    </sction>
+
+    <p>flex-end (column)</p>
+    <sction class="container flex-start column">
+        <div classe="item">1</div>
+        <div classe="item">item 2</div>
+        <div classe="item">outro item</div>
+        <div classe="item">4</div>
+        <div classe="item">5</div>
+        <div classe="item">item 6</div>
+    </sction>
+
+    <p>center</p>
+    <sction class="container center column">
+        <div classe="item">1</div>
+        <div classe="item">item 2</div>
+        <div classe="item">outro item</div>
+        <div classe="item">4</div>
+        <div classe="item">5</div>
+        <div classe="item">item 6</div>
+    </sction>
+
+    <p>space-between</p>
+    <sction class="container space-between column">
+        <div classe="item">1</div>
+        <div classe="item">item 2</div>
+        <div classe="item">outro item</div>
+        <div classe="item">4</div>
+        <div classe="item">5</div>
+        <div classe="item">item 6</div>
+    </sction>
+
+    <p>space-around</p>
+    <sction class="container space-around column">
         <div classe="item">1</div>
         <div classe="item">item 2</div>
         <div classe="item">outro item</div>
